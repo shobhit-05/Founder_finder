@@ -19,7 +19,7 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 # 3) Run the code
-python founder_finder.py
+python3 founder_finder.py
 ```
 
 The script will scan a few common pages on each company’s site (e.g., `/about`, `/leadership`, `/founders`)
